@@ -34,7 +34,7 @@
 <br>
 <br>
 <br>
-Update and Add new routes also check for pre-existence of the data
+Update and Add new routes also check for pre-existence of the data:
 - If data exists already, then it won't add, tells user to change data
  - If data doesn't exists already, then it won't update, tells user to
    change data
