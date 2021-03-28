@@ -1,0 +1,121 @@
+[{
+  "_id": {
+    "$oid": "605f9be32d03580a84d80b06"
+  },
+  "bedid": "1",
+  "name": "siddddd",
+  "date": "21-09-2021",
+  "hospital": "QWE",
+  "criticalLevel": 5,
+  "pin": 560054
+},{
+  "_id": {
+    "$oid": "60602a88ce3ca1df949afc6c"
+  },
+  "bedid": "2",
+  "name": "qwe",
+  "date": "31-05-2021",
+  "hospital": "ASD",
+  "criticalLevel": 4,
+  "pin": 560054
+},{
+  "_id": {
+    "$oid": "60602addce3ca1df949afc6d"
+  },
+  "bedid": "3",
+  "name": "john",
+  "date": "12-03-2021",
+  "hospital": "MDH",
+  "criticalLevel": 3,
+  "pin": 560012
+},{
+  "_id": {
+    "$oid": "60602afcce3ca1df949afc6e"
+  },
+  "bedid": "4",
+  "name": "mayer",
+  "date": "1-5-2021",
+  "hospital": "APOLLO",
+  "criticalLevel": 1,
+  "pin": 560212
+},{
+  "_id": {
+    "$oid": "60602b2ece3ca1df949afc6f"
+  },
+  "bedid": "5",
+  "name": "smith",
+  "date": "05-05-2021",
+  "hospital": "JHJ",
+  "criticalLevel": 2,
+  "pin": 560211
+},{
+  "_id": {
+    "$oid": "60602b47ce3ca1df949afc70"
+  },
+  "bedid": "6",
+  "name": "Tom",
+  "date": "05-06-2021",
+  "hospital": "QWERTY",
+  "criticalLevel": 5,
+  "pin": 561233
+},{
+  "_id": {
+    "$oid": "60602b84ce3ca1df949afc71"
+  },
+  "bedid": "7",
+  "name": "Sawyer",
+  "date": "24-11-2021",
+  "hospital": "Fortis",
+  "criticalLevel": 3,
+  "pin": 560054
+},{
+  "_id": {
+    "$oid": "60602babce3ca1df949afc72"
+  },
+  "bedid": "8",
+  "name": "Ram",
+  "date": "25-12-2021",
+  "hospital": "Govt Hospital, RR",
+  "criticalLevel": 5,
+  "pin": 560055
+},{
+  "_id": {
+    "$oid": "60602bf7ce3ca1df949afc73"
+  },
+  "bedid": "9",
+  "name": "Steve",
+  "date": "03-02-2021",
+  "hospital": "Sagar Memorial",
+  "criticalLevel": 4,
+  "pin": 560054
+},{
+  "_id": {
+    "$oid": "60602c11ce3ca1df949afc74"
+  },
+  "bedid": "10",
+  "name": "McClain",
+  "date": "23-07-2021",
+  "hospital": "Ramaiah",
+  "criticalLevel": 5,
+  "pin": 560054
+},{
+  "_id": {
+    "$oid": "60602cfc4fe27cb05d5e0cae"
+  },
+  "bedid": "11",
+  "name": "James",
+  "date": "22-08-2021",
+  "hospital": "ASDF",
+  "criticalLevel": 5,
+  "pin": 560054
+},{
+  "_id": {
+    "$oid": "606047c3d61a72f049261a71"
+  },
+  "bedid": "12",
+  "name": "Roy",
+  "date": "22-10-2021",
+  "hospital": "McRoy Hospital",
+  "criticalLevel": 1,
+  "pin": 560080
+}]

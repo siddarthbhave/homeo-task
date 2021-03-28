@@ -5,6 +5,8 @@ import json
 from bson.json_util import dumps
 
 app = Flask(__name__)
+# Enter your MONGOURI like this:
+# app.config['MONGO_URI'] = 'yourmongoURI'
 app.config['MONGO_URI'] = config('MONGO_URI')
 mongo = PyMongo()
 mongo.init_app(app)
@@ -72,6 +74,7 @@ def get_all():
 def filter():
     arg1 = request.args.get('arg1')
     arg2 = request.args.get('arg2')
+    if not arg1 or not arg2: return '<h3>Pass valid Query String Arguments as ?arg1=value1&arg2=value2</h3>'
     if arg1 in 'criticalLevelpin': arg2 = int(arg2)
     data = mongo.db.beds.find({arg1: arg2}, {'_id': 0})
     ret = {}
