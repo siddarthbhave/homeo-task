@@ -32,6 +32,8 @@
 
 <ins>**GET '/filter?arg1=value1&arg2=value2'**</ins> -> Gets data based on filter used. Send request with query string arguments with parameters `arg1` and `arg2`. `arg1` takes values of any key (for eg., `"name","id","criticalLevel"` for any field in document) and `arg2` takes values of values to be queried (for eg., `1,"James",5` or any key-value in document ) respectively. Example for a valid query string: `'/filter?arg1=name&arg2=James'` given that `"name":"James"` exists in the document.
 <br>
+<br>
+<br>
 Update and Add new routes also check for pre-existence of the data
 - If data exists already, then it won't add, tells user to change data
  - If data doesn't exists already, then it won't update, tells user to
